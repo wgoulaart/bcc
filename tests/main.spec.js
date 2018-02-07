@@ -7,7 +7,7 @@ describe('Main CLI', () => {
     exec(bcc, (err, stdout, stderr) => {
       if (err) throw err;
 
-      expect(stdout).to.be.equal('Hello');
+      expect(stdout.replace('\n', '')).to.be.equal('Hello');
 
       done();
     });
