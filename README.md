@@ -1,4 +1,5 @@
-## BCC - Bitcoin Converter CLI
+![](bcc-logo.png)
+
 A CLI to convert Bitcoin to any currency provided.
 
 ## Installing
@@ -24,10 +25,12 @@ Options:
   -A, --amount <amount>      Value in Bitcoin to convert. (Default: 1)
 ```
 
-## Contributing
+#### Contributing
 
 Please read [CONTRIBUTING](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## License
+### _Author this project [William Goulart](https://github.com/wgoulart/)_
+
+#### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
