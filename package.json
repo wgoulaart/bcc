@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clear": "rimraf bin",
-    "build": "npm run clear && ./node_modules/.bin/babel --out-dir bin src",
+    "prebuild": "./node_modules/.bin/babel --out-dir bin src",
+    "build": "npm run clear && npm run prebuild",
     "build:watch": "npm run build -- --watch",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --reporter nyan",
